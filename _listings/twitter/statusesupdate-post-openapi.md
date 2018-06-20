@@ -54,7 +54,7 @@ paths:
       summary: Show Timelines Status
       description: Returns a collection of the most recent Tweets posted by the User
       operationId: returns-a-collection-of-the-most-recent-tweets-posted-by-the-user
-      x-api-path-slug: statusesuser-timelinejson-get
+      x-api-path-slug: statusesuser-timeline-json-get
       parameters:
       - in: query
         name: contributor_details

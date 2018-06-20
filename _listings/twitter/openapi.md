@@ -4,7 +4,7 @@ x-collection-name: Twitter
 x-complete: 1
 info:
   title: Twitter
-  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform-allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   version: "1.1"
 host: api.twitter.com
 basePath: /1.1
@@ -54,7 +54,7 @@ paths:
       summary: Show Timelines Status
       description: Returns a collection of the most recent Tweets posted by the User
       operationId: returns-a-collection-of-the-most-recent-tweets-posted-by-the-user
-      x-api-path-slug: statusesuser-timelinejson-get
+      x-api-path-slug: statusesuser-timeline-json-get
       parameters:
       - in: query
         name: contributor_details
@@ -290,7 +290,7 @@ paths:
       description: Returns a timeline of tweets authored by memebers of the specified
         list
       operationId: returns-a-timeline-of-tweets-authored-by-memebers-of-the-specified-list
-      x-api-path-slug: listsstatusesjson-get
+      x-api-path-slug: listsstatuses-json-get
       parameters:
       - in: query
         name: count
@@ -869,7 +869,7 @@ paths:
       summary: Search Tweets
       description: returns collection of relevant Tweets matching query
       operationId: returns-collection-of-relevant-tweets-matching-query
-      x-api-path-slug: searchtweetsjson-get
+      x-api-path-slug: searchtweets-json-get
       parameters:
       - in: query
         name: callback
@@ -1536,7 +1536,7 @@ paths:
       summary: User Search
       description: simple relevance-based user search
       operationId: simple-relevancebased-user-search
-      x-api-path-slug: userssearchjson-get
+      x-api-path-slug: userssearch-json-get
       parameters:
       - in: query
         name: count
@@ -1773,7 +1773,7 @@ paths:
       summary: Show Place Trends
       description: Returns the top 10 trending topics for a specific WOEID
       operationId: returns-the-top-10-trending-topics-for-a-specific-woeid
-      x-api-path-slug: trendsplacejson-get
+      x-api-path-slug: trendsplace-json-get
       parameters:
       - in: query
         name: exclude
@@ -1793,7 +1793,7 @@ paths:
       summary: Show Available Trends
       description: Returns the availability
       operationId: returns-the-availability
-      x-api-path-slug: trendsavailablejson-get
+      x-api-path-slug: trendsavailable-json-get
       responses:
         200:
           description: OK
@@ -1806,7 +1806,7 @@ paths:
       description: Returns the location that Twitter has trending topic information
         for
       operationId: returns-the-location-that-twitter-has-trending-topic-information-for
-      x-api-path-slug: trendsclosestjson-get
+      x-api-path-slug: trendsclosest-json-get
       parameters:
       - in: query
         name: lat

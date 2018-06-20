@@ -54,7 +54,7 @@ paths:
       summary: Show Timelines Status
       description: Returns a collection of the most recent Tweets posted by the User
       operationId: returns-a-collection-of-the-most-recent-tweets-posted-by-the-user
-      x-api-path-slug: statusesuser-timelinejson-get
+      x-api-path-slug: statusesuser-timeline-json-get
       parameters:
       - in: query
         name: contributor_details
@@ -290,7 +290,7 @@ paths:
       description: Returns a timeline of tweets authored by memebers of the specified
         list
       operationId: returns-a-timeline-of-tweets-authored-by-memebers-of-the-specified-list
-      x-api-path-slug: listsstatusesjson-get
+      x-api-path-slug: listsstatuses-json-get
       parameters:
       - in: query
         name: count
@@ -869,7 +869,7 @@ paths:
       summary: Search Tweets
       description: returns collection of relevant Tweets matching query
       operationId: returns-collection-of-relevant-tweets-matching-query
-      x-api-path-slug: searchtweetsjson-get
+      x-api-path-slug: searchtweets-json-get
       parameters:
       - in: query
         name: callback
@@ -1536,7 +1536,7 @@ paths:
       summary: User Search
       description: simple relevance-based user search
       operationId: simple-relevancebased-user-search
-      x-api-path-slug: userssearchjson-get
+      x-api-path-slug: userssearch-json-get
       parameters:
       - in: query
         name: count

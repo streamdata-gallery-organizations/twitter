@@ -1,22 +1,21 @@
 ---
 name: Twitter
 x-slug: twitter
-description: Twitter is a global real-time communications platform with 400 million
-  monthly visitors to twitter.com, more than 200 million monthly active users around
-  the world.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-x-kinRank: "10"
-x-alexaRank: ""
+description: From breaking news and entertainment to sports and politics, get the
+  full story with all the live commentary.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+x-kinRank: "9"
+x-alexaRank: "13"
 tags: Twitter
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-19"
+modified: "2018-06-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Twitter Mentions Timelines
   x-api-slug: twitter
   description: Returns the 20 most recent mentions for the authenticating user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//statuses/mentions_timeline
   tags: Social,Statuses
@@ -28,19 +27,19 @@ apis:
 - name: Twitter Show Timelines Status
   x-api-slug: twitter
   description: Returns a collection of the most recent Tweets posted by the User
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//statuses/user_timeline.json
   tags: Social,Statuses
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/statusesuser-timelinejson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/statusesuser-timelinejson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
 - name: Twitter Status Timeline
   x-api-slug: twitter
   description: Returns a collection of the most recent Tweets
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//statuses/home_timeline
   tags: Social,Statuses
@@ -52,7 +51,7 @@ apis:
 - name: Twitter Show Retweets
   x-api-slug: twitter
   description: Retweens a tweet
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//statuses/retweets/{id}
   tags: Social,Statuses
@@ -64,7 +63,7 @@ apis:
 - name: Twitter Show Retweet
   x-api-slug: twitter
   description: Retruns a single Tweet
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//statuses/show/{id}
   tags: Social,Tweets
@@ -76,7 +75,7 @@ apis:
 - name: Twitter Remove Tweet
   x-api-slug: twitter
   description: Destroys the status specified by the required ID parameter
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//statuses/destroy/{id}
   tags: Social,Statuses
@@ -88,7 +87,7 @@ apis:
 - name: Twitter Update Status
   x-api-slug: twitter
   description: Updates the authenticating user's status
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//statuses/update
   tags: Social,Statuses
@@ -100,7 +99,7 @@ apis:
 - name: Twitter Oembed Statuses
   x-api-slug: twitter
   description: Returns information allowing the creation of an embedded representation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//statuses/oembed
   tags: Social,Statuses
@@ -113,7 +112,7 @@ apis:
   x-api-slug: twitter
   description: Return all lists the authenticating or specified user subscribes to,
     including their own.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/list
   tags: Social,Lists
@@ -126,19 +125,19 @@ apis:
   x-api-slug: twitter
   description: Returns a timeline of tweets authored by memebers of the specified
     list
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/statuses.json
   tags: Social,Lists
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/listsstatusesjson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/listsstatuses-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/listsstatusesjson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/listsstatuses-json-get-openapi.md
 - name: Twitter Remove User From List
   x-api-slug: twitter
   description: Returns the list of memebers destroy
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/members/destroy
   tags: Social,Lists
@@ -150,7 +149,7 @@ apis:
 - name: Twitter Get Memberships
   x-api-slug: twitter
   description: Returns the lists of the specified user has been added to
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/memberships
   tags: Social,Lists
@@ -162,7 +161,7 @@ apis:
 - name: Twitter List Subscribers
   x-api-slug: twitter
   description: Returns the subscribers of the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/subscribers
   tags: Social,Lists
@@ -174,7 +173,7 @@ apis:
 - name: Twitter Add List Subscribers
   x-api-slug: twitter
   description: Subscribes the authenticated user to the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/subscribers/create
   tags: Social,Lists
@@ -186,7 +185,7 @@ apis:
 - name: Twitter Show List Subscribers
   x-api-slug: twitter
   description: Check if the specified user is a subscriber of the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/subscribers/show
   tags: Social,Lists
@@ -198,7 +197,7 @@ apis:
 - name: Twitter Remove List Subscribers
   x-api-slug: twitter
   description: Returns list of subscribers destroy
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/subscribers/destroy
   tags: Social,Lists
@@ -210,7 +209,7 @@ apis:
 - name: Twitter Add Users to List
   x-api-slug: twitter
   description: Returns lists of members create_all
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/members/create_all
   tags: Social,Lists
@@ -222,7 +221,7 @@ apis:
 - name: Twitter Show Members
   x-api-slug: twitter
   description: Check if the specified user is a member of the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//list/members/show
   tags: Social,Lists
@@ -234,7 +233,7 @@ apis:
 - name: Twitter Get Members
   x-api-slug: twitter
   description: Returns the members of the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//list/members
   tags: Social,Lists
@@ -246,7 +245,7 @@ apis:
 - name: Twitter Add Member
   x-api-slug: twitter
   description: Returns list of members create
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//list/members/create
   tags: Social,Lists
@@ -258,7 +257,7 @@ apis:
 - name: Twitter Destroy List
   x-api-slug: twitter
   description: Returns list of destroy
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/destroy
   tags: Social,Lists
@@ -270,7 +269,7 @@ apis:
 - name: Twitter Update List
   x-api-slug: twitter
   description: Returns lists of updates
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/update
   tags: Social,Lists
@@ -282,7 +281,7 @@ apis:
 - name: Twitter Create List
   x-api-slug: twitter
   description: Returns list of create
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/create
   tags: Social,Lists
@@ -294,7 +293,7 @@ apis:
 - name: Twitter Show LIsts
   x-api-slug: twitter
   description: Returns list of show
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/show
   tags: Social,Lists
@@ -306,7 +305,7 @@ apis:
 - name: Twitter Show List Subscriptions
   x-api-slug: twitter
   description: Returns list of subscriptions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//lists/subscriptions
   tags: Social,Lists
@@ -318,7 +317,7 @@ apis:
 - name: Twitter Remove Members
   x-api-slug: twitter
   description: Returns lists of destroy all
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//list/members/destroy_all
   tags: Social,Lists
@@ -330,7 +329,7 @@ apis:
 - name: Twitter Get Sent Direct Messages
   x-api-slug: twitter
   description: return 20 most recent direct messages sent
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//direct_messages/sent
   tags: Social,Messages
@@ -342,7 +341,7 @@ apis:
 - name: Twitter Show Direct Message
   x-api-slug: twitter
   description: returns a single direct message specified by an id
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//direct_messages/show
   tags: Social,Messages
@@ -354,19 +353,19 @@ apis:
 - name: Twitter Search Tweets
   x-api-slug: twitter
   description: returns collection of relevant Tweets matching query
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//search/tweets.json
   tags: Social,Statuses
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/searchtweetsjson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/searchtweets-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/searchtweetsjson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/searchtweets-json-get-openapi.md
 - name: Twitter List Saved Searches
   x-api-slug: twitter
   description: Returns the authenticated user's saved search queries
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//saved_searches/list
   tags: Social,Search
@@ -379,7 +378,7 @@ apis:
   x-api-slug: twitter
   description: Retrieve the information for the saved search represented by the given
     id
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//saved_searches/show/{id}
   tags: Social,Search
@@ -391,7 +390,7 @@ apis:
 - name: Twitter Create Saved Search
   x-api-slug: twitter
   description: Create a new saved search for the authenticated user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//saved_searches/create
   tags: Social,Search
@@ -403,7 +402,7 @@ apis:
 - name: Twitter Destroy Saved Search
   x-api-slug: twitter
   description: Destroy a saved search for the authenticating user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//saved_searches/destroy/{id}
   tags: Social,Search
@@ -415,7 +414,7 @@ apis:
 - name: Twitter Get Direct Messages
   x-api-slug: twitter
   description: return 20 most recent direct messages sent to user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//direct_messages
   tags: Social,Messages
@@ -427,7 +426,7 @@ apis:
 - name: Twitter Remove Direct Message
   x-api-slug: twitter
   description: destroys direct messages specified in required ID
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//direct_messages/destroy
   tags: Social,Messages
@@ -439,7 +438,7 @@ apis:
 - name: Twitter Create Direct Message
   x-api-slug: twitter
   description: sends a new direct message to specified user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//direct_messages/new
   tags: Social,Messages
@@ -451,7 +450,7 @@ apis:
 - name: Twitter Get Friends
   x-api-slug: twitter
   description: returns a cursored collection of user IDs followed by user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friends/ids
   tags: Social,Friends
@@ -463,7 +462,7 @@ apis:
 - name: Twitter Get Followers
   x-api-slug: twitter
   description: returns a cursored collection of user IDs following the user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//followers/ids
   tags: Social,Friends
@@ -475,7 +474,7 @@ apis:
 - name: Twitter Get Friend Requests
   x-api-slug: twitter
   description: returns collection of IDs of users with pending follow request
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/incoming
   tags: Social,Friends
@@ -488,7 +487,7 @@ apis:
   x-api-slug: twitter
   description: returns collection of IDs of users with pending follow request from
     the user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/outgoing
   tags: Social,Friends
@@ -500,7 +499,7 @@ apis:
 - name: Twitter Follow User
   x-api-slug: twitter
   description: allows users to follow user sepcified by ID
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/create
   tags: Social,Friends
@@ -512,7 +511,7 @@ apis:
 - name: Twitter Unfollow user
   x-api-slug: twitter
   description: allows user to unfollow user psecified by ID
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/destroy
   tags: Social,Friends
@@ -524,7 +523,7 @@ apis:
 - name: Twitter Unfollow User
   x-api-slug: twitter
   description: Allows one to enable or disable settings for specified user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/update
   tags: Social,Friends
@@ -536,7 +535,7 @@ apis:
 - name: Twitter Get Friends
   x-api-slug: twitter
   description: returns detailed info about relationship between two users
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/show
   tags: Social,Friends
@@ -548,7 +547,7 @@ apis:
 - name: Twitter Get Account Settings
   x-api-slug: twitter
   description: returns settings for user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//account/settings
   tags: Social,Account
@@ -560,7 +559,7 @@ apis:
 - name: Twitter Update  Account Settings
   x-api-slug: twitter
   description: updates user's settings
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//account/settings
   tags: Social,Account
@@ -572,7 +571,7 @@ apis:
 - name: Twitter Update Account Deliver Service
   x-api-slug: twitter
   description: sets which device Twitter delivers updates to for user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//account/update_delivery_device
   tags: Social,Account
@@ -584,7 +583,7 @@ apis:
 - name: Twitter Update Profile
   x-api-slug: twitter
   description: sets values that users ar eable to set under Account tab
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//account/update_profile
   tags: Social,Account
@@ -596,7 +595,7 @@ apis:
 - name: Twitter Update Profile Background Image
   x-api-slug: twitter
   description: updates user's profile background image
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//account/update_profile_background_image
   tags: Social,Account
@@ -608,7 +607,7 @@ apis:
 - name: Twitter Update Profile Colors
   x-api-slug: twitter
   description: sets one or more hex values that controls color scheme
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//account/update_profile_colors
   tags: Social,Account
@@ -620,7 +619,7 @@ apis:
 - name: Twitter Update Profile Image
   x-api-slug: twitter
   description: updates user's profile image
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//account/update_profile_image
   tags: Social,Account
@@ -632,7 +631,7 @@ apis:
 - name: Twitter Block List
   x-api-slug: twitter
   description: disallows retweets and device notifications from a user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//blocks/list
   tags: Social,Block
@@ -644,7 +643,7 @@ apis:
 - name: Twitter Block Users
   x-api-slug: twitter
   description: returns array of numeric user ids of blocked users
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//blocks/ids
   tags: Social,Block
@@ -656,7 +655,7 @@ apis:
 - name: Twitter Block User
   x-api-slug: twitter
   description: blocks the specified user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//blocks/create
   tags: Social,Block
@@ -668,7 +667,7 @@ apis:
 - name: Twitter Unblock User
   x-api-slug: twitter
   description: un-blocks the specified user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//blocks/destroy
   tags: Social,Block
@@ -680,7 +679,7 @@ apis:
 - name: Twitter User Lookup
   x-api-slug: twitter
   description: returns fully-hydrated user objects up to 100
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//users/lookup
   tags: Social,Users
@@ -692,7 +691,7 @@ apis:
 - name: Twitter Show User
   x-api-slug: twitter
   description: returns a variety of info about specified user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//users/show
   tags: Social,Users
@@ -704,19 +703,19 @@ apis:
 - name: Twitter User Search
   x-api-slug: twitter
   description: simple relevance-based user search
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//users/search.json
   tags: Social,Users
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/userssearchjson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/userssearch-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/userssearchjson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/userssearch-json-get-openapi.md
 - name: Twitter User Contributees
   x-api-slug: twitter
   description: collection of users specified user can contribute to
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//users/contributees
   tags: Social,Users
@@ -728,7 +727,7 @@ apis:
 - name: Twitter User Contributors
   x-api-slug: twitter
   description: collection of users that can contribute to specified account
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//users/contributors
   tags: Social,Users
@@ -740,7 +739,7 @@ apis:
 - name: Twitter Get Place
   x-api-slug: twitter
   description: Returns all the information about a know place
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//geo/id/{place_id}
   tags: Places
@@ -753,7 +752,7 @@ apis:
   x-api-slug: twitter
   description: Given a latitude and a longitude, searches for up to 20 places that
     can be used as a place_id when updatting a status
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//geo/reverse_geoncode
   tags: Places,Search
@@ -765,7 +764,7 @@ apis:
 - name: Twitter Geo Search
   x-api-slug: twitter
   description: Search for places that can be attached to a statuses/updates
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//geo/search
   tags: Places,Similar
@@ -777,7 +776,7 @@ apis:
 - name: Twitter Get Similar Places
   x-api-slug: twitter
   description: Locates places near the given coordinates which are similar in name
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//geo/similar_places
   tags: Places,Similar
@@ -789,7 +788,7 @@ apis:
 - name: Twitter Get Places
   x-api-slug: twitter
   description: Create a new place object at the given latitude and logitude
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//geo/places
   tags: Places
@@ -801,43 +800,43 @@ apis:
 - name: Twitter Show Place Trends
   x-api-slug: twitter
   description: Returns the top 10 trending topics for a specific WOEID
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//trends/place.json
   tags: Social,Trends
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsplacejson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsplace-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsplacejson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsplace-json-get-openapi.md
 - name: Twitter Show Available Trends
   x-api-slug: twitter
   description: Returns the availability
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//trends/available.json
   tags: Social,Trends
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsavailablejson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsavailable-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsavailablejson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsavailable-json-get-openapi.md
 - name: Twitter Show Closes Trends
   x-api-slug: twitter
   description: Returns the location that Twitter has trending topic information for
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//trends/closest.json
   tags: Social,Trends
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsclosestjson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsclosest-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsclosestjson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/trendsclosest-json-get-openapi.md
 - name: Twitter Report User Spam
   x-api-slug: twitter
   description: Returna users report spam
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//users/report_spam
   tags: Social,Users,Spam
@@ -850,7 +849,7 @@ apis:
   x-api-slug: twitter
   description: Returns the current configuration used by Twitter including twitter.com
     slugs which are not usernames
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//help/configuration
   tags: Help,Configuration
@@ -863,7 +862,7 @@ apis:
   x-api-slug: twitter
   description: Returns the list of languages supported by Twitter along with the language
     code supported by Twitter
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//help/languages
   tags: Languages
@@ -875,7 +874,7 @@ apis:
 - name: Twitter Help Privacy
   x-api-slug: twitter
   description: Returns Twitter's privacy policy
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//help/privacy
   tags: Terms of Service
@@ -887,7 +886,7 @@ apis:
 - name: Twitter Help Terms of Services
   x-api-slug: twitter
   description: Returns the Twitter Terms of Service
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//help/tos
   tags: Social,Lists
@@ -900,7 +899,7 @@ apis:
   x-api-slug: twitter
   description: Returns the current rate limits for methods belonging to the specified
     resource families
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//application/rate_limit_status
   tags: Rate Limit
@@ -911,10 +910,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/applicationrate-limit-status-get-openapi.md
 - name: Twitter
   x-api-slug: twitter
-  description: Twitter is a global real-time communications platform with 400 million
-    monthly visitors to twitter.com, more than 200 million monthly active users around
-    the world.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  description: From breaking news and entertainment to sports and politics, get the
+    full story with all the live commentary.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Twitter
@@ -922,7 +920,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://tweetinvi.codeplex.com/
 - type: x-advertising-development-kit
   url: https://docs.fabric.io/unity/mopub/overview.html
@@ -962,6 +960,8 @@ x-common:
   url: http://dev.twitter.com/rest/tools/console
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/twitter
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/twitter
 - type: x-css-control
   url: https://dev.twitter.com/web/overview/css
 - type: x-developer
@@ -972,6 +972,8 @@ x-common:
   url: https://blog.twitter.com/api/blog.rss?name=developer
 - type: x-documentation
   url: https://dev.twitter.com/overview/documentation
+- type: x-email
+  url: copyright@twitter.com
 - type: x-embeddable
   url: https://dev.twitter.com/web/overview
 - type: x-encryption
@@ -998,7 +1000,7 @@ x-common:
   url: https://dev.twitter.com/overview/general/adding-international-support-to-your-apps
 - type: x-java-library
   url: https://www.github.com/twitter/hbc
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://github.com/BoyCook/TwitterJSClient
 - type: x-oembed
   url: https://dev.twitter.com/web/embedded-timelines/oembed
@@ -1040,6 +1042,8 @@ x-common:
   url: https://dev.twitter.com/overview/terms
 - type: x-transparency-report
   url: https://transparency.twitter.com/
+- type: x-twitter
+  url: https://twitter.com/Twitter
 - type: x-twitter
   url: https://twitter.com/twitterapi/
 - type: x-twitter
