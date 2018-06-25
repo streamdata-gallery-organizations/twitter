@@ -5,10 +5,10 @@ description: From breaking news and entertainment to sports and politics, get th
   full story with all the live commentary.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
 x-kinRank: "9"
-x-alexaRank: "13"
+x-alexaRank: "12"
 tags: Twitter
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twitter/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
